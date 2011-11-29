@@ -1,0 +1,63 @@
+Codes for rjpusers 2011 presentation by a_bicky
+
++----------------+
+| Included files |
++----------------+
+File name               License		Description
+
+aggregation.R           Free            script for chapter 1 in ref. 1
+conf.R                  Free            configuration file
+init.R                  Free            initialization file
+init_twitteR.R          Free            initialization file for twitteR
+sentiment_analysis.R    Free            script for chapter 3 in ref. 1
+t/utils.t               Free            unit test for utils.R
+test.R                  Free            execute unit test (Rscript test.R)
+utils.R                 MIT             utilities for processing tweets
+visualization.R         Free            script for chapter 2 in ref. 1
+README					this file
+
++-------+
+| Usage |
++-------+
+change 'targetUser' in conf.R
+change 'useOAuth' value in conf.R to TRUE and set your consumer key,
+consumer secret and so on if you want to use OAuth authentication.
+
++------------+
+| References |
++------------+
+1. http://www.slideshare.net/abicky/rtwitter
+2. http://d.hatena.ne.jp/a_bicky/
+
+
+----- in Japanese -------------------------------------------------------
+
++--------------+
+| 同梱ファイル |
++--------------+
+ファイル名		ライセンス	説明
+
+aggregation.R           フリー          参考1の第1章用のスクリプト
+conf.R                  フリー          設定ファイル
+init.R                  フリー          初期化ファイル
+init_twitteR.R          フリー          twitteR用初期化ファイル
+sentiment_analysis.R    フリー          参考1の第3章用のスクリプト
+t/utils.t               フリー          utils.Rのユニットテスト
+test.R                  フリー          ユニットテストを実行 (Rscript test.R)
+utils.R                 MIT             ツイートを処理するユーティリティ
+visualization.R         フリー          参考1の第2章用のスクリプト
+README					このファイル
+
++--------+
+| 使い方 |
++--------+
+conf.Rの'targetUser'を変更してください
+OAuth認証を使いたい場合は'useOAuth'の値をTRUEにして、
+コンシューマキー、コンシューマシークレットなどをセット
+してください
+
++------+
+| 参考 |
++------+
+1. http://www.slideshare.net/abicky/rtwitter
+2. http://d.hatena.ne.jp/a_bicky/
